@@ -30,9 +30,9 @@ while(True):                     # Loop infinito
     vOpcao = int(input('Digite a sua opcao:')) # Entrada da opcao pelo teclado
 
     if vOpcao == 1:                           # Se a opcao for 1
-        nome = str(input('\nDigite o nome:'))
-        telefone = input('Digite o telefone:')
-        nome = str(str(nome) + ' - ' + str(telefone))
+        nome = raw_input("Digite o nome: ")
+        telefone = int(raw_input("Digite o telefone: "))
+        nome = str(nome) + ' - ' + str(telefone)
         escreve_arquivo(str(nome))            # Chama a função que grava em
     elif vOpcao == 2:             # Se a opcao for 2
         le_arquivo()              # Chama a função que le o arquivo
