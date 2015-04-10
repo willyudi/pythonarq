@@ -2,12 +2,16 @@
 import os
 #import pylab
 #import numpy as np
+import csv
 
 import time
 import datetime
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
+
+arqtransacao = csv.writer(open("transacao.csv", "wb"))
+arqacao = csv.writer(open("acao.csv", "wb"))
 
 ano = '2015'
 if os.path.exists('alarme.dat'):
@@ -18,29 +22,21 @@ if os.path.exists('alarme.dat'):
     while linha:
         if str(linha[0:6]) == 'IGREJA':
             acao = str(linha[11:-1])
+            arqacao.writerow([acao])
             #print (acao)
         else:
             hora = str(linha[0:5])
             data = str(linha[6:-1])
             dia = data[0:2]
             mes = data[3:5]
-            x.append(ano + '-' + dia + '-' + mes)
+            x.append(ano + '-' + mes + '-' + dia)
             y.append(hora + ':00')
+            arqtransacao.writerow([ano + '-' + mes + '-' + dia, hora + ':00'])
             #print ((data + ano, hora))
         linha = dados.readline()
     dados.close()
 else:
     print ('Arquivo não encontrado!')
-
-#Mostra Gráfico na tela
-#x = np.linspace(0, 20, 1000)
-#x = (0, 20, 100, 150, 300)
-#y = np.sin(x)
-#y = (0, 30, 70, 80, 180)
-print (x)
-print (y)
-#pylab.plot(x, y)
-#pylab.show()
 
 
 z = datetime.time(16,00)
