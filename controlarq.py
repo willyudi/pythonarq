@@ -1,9 +1,6 @@
 # This Python file uses the following encoding: utf-8
 import os
-#import pylab
-#import numpy as np
 import csv
-
 import time
 import datetime
 import numpy as np
@@ -22,6 +19,7 @@ if os.path.exists('alarme.dat'):
     while linha:
         if str(linha[0:6]) == 'IGREJA':
             acao = str(linha[11:-1])
+            #Grava no arquivo a Ação
             arqacao.writerow([acao])
             #print (acao)
         else:
@@ -31,6 +29,7 @@ if os.path.exists('alarme.dat'):
             mes = data[3:5]
             x.append(ano + '-' + mes + '-' + dia)
             y.append(hora + ':00')
+            #Grava no arquivo a transação data e hora
             arqtransacao.writerow([ano + '-' + mes + '-' + dia, hora + ':00'])
             #print ((data + ano, hora))
         linha = dados.readline()
@@ -38,24 +37,8 @@ if os.path.exists('alarme.dat'):
 else:
     print ('Arquivo não encontrado!')
 
-
-z = datetime.time(16,00)
-print (z)
-print('Willy')
-
-# Generate Data
-time = mdates.drange(datetime.datetime(2010, 1, 1),
-                     datetime.datetime(2011, 1, 1),
-                     datetime.timedelta(days=10))
-y1 = np.cumsum(np.random.random(time.size) - 0.5)
-
-print (time)
-print (y1)
-
 # Plot things...
 fig = plt.figure()
-
 plt.plot_date(datetime.date(2015,1,1),46, '-')
-
 fig.autofmt_xdate()
 plt.show()
