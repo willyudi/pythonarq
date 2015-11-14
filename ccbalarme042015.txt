@@ -1,0 +1,274 @@
+IGREJA   : Sistema desarmado por RONALDO  via SMS
+10:12 01/04
+IGREJA   : Sistema armado por RONALDO  via SMS
+10:50 01/04
+IGREJA   : Sistema desarmado por RONALDO  via SMS
+11:47 01/04
+IGREJA   : O alarme esta sem energia eletrica
+14:18 01/04
+IGREJA   : Hora do Alarme incompativel com hora do SMS
+14:47 01/04
+IGREJA   : A energia eletrica foi restaurada
+15:20 01/04
+IGREJA   : Sistema armado por RONALDO  via SMS
+17:25 01/04
+IGREJA   : Hora do Alarme incompativel com hora do SMS
+IGREJA   : Disparo SALAO
+18:22 01/04
+IGREJA   : Sistema desarmado por RONALDO  via SMS
+18:31 01/04
+IGREJA   : Sistema armado por JOSE
+19:03 01/04
+IGREJA   : Sistema desarmado por JOSE
+11:21 02/04
+IGREJA   : Sistema armado por JOSE
+15:02 02/04
+IGREJA   : Sistema desarmado por JOSE
+18:13 02/04
+IGREJA   : Sistema armado por JOSE
+21:30 02/04
+IGREJA   : Sistema desarmado por RONALDO  via SMS
+08:02 04/04
+IGREJA   : Sistema armado por RONALDO  via SMS
+10:10 04/04
+IGREJA   : Sistema desarmado por RONALDO  via SMS
+16:04 04/04
+IGREJA   : Sistema armado por RONALDO  via SMS
+17:43 04/04
+IGREJA   : Sistema desarmado por RONALDO  via SMS
+18:19 04/04
+IGREJA   : Hora do Alarme incompativel com hora do SMS
+18:20 04/04
+IGREJA   : Sistema armado por RONALDO
+21:20 04/04
+IGREJA   : Sistema desarmado por RONALDO  via SMS
+08:33 05/04
+IGREJA   : Sistema armado por JOAO
+11:17 05/04
+IGREJA   : Sistema desarmado por RONALDO  via SMS
+17:36 05/04
+IGREJA   : Sistema armado por NETO     via SMS
+21:09 05/04
+IGREJA   : Sistema desarmado por RONALDO  via SMS
+10:03 06/04
+IGREJA   : Sistema armado por RONALDO  via SMS
+10:57 06/04
+IGREJA   : Sistema desarmado por RONALDO
+14:15 06/04
+IGREJA   : Sistema armado por RONALDO
+15:05 06/04
+IGREJA   : Sistema desarmado por RONALDO  via SMS
+19:29 06/04
+IGREJA   : Sistema armado por WILLIAM  via SMS
+IGREJA   : Sistema desarmado por JOAO
+14:37 07/04
+IGREJA   : Sistema desarmado por RONALDO  via SMS
+08:12 08/04
+IGREJA   : Sistema armado por RONALDO  via SMS
+09:05 08/04
+IGREJA   : Sistema desarmado por NETO     via SMS
+15:49 08/04
+IGREJA   : Sistema desarmado por TARCISIO
+18:46 08/04
+IGREJA   : Sistema armado por TARCISIO
+18:49 08/04
+IGREJA   : Sistema desarmado por TARCISIO
+18:51 08/04
+IGREJA   : Sistema armado por TARCISIO
+18:52 08/04
+IGREJA   : Disparo SERRALHER
+08:34 09/04
+IGREJA   : Sistema desarmado por RONALDO  via SMS
+IGREJA   : Sistema armado por RONALDO  via SMS
+09:11 09/04
+IGREJA   : Sistema desarmado por RONALDO
+09:41 09/04
+IGREJA   : Sistema armado por RONALDO
+21:39 09/04
+IGREJA   : Sistema desarmado por RONALDO  via SMS
+09:30 10/04
+IGREJA   : Sistema armado por RONALDO  via SMS
+11:44 10/04
+IGREJA   : Disparo BEBEDOURO
+14:09 10/04
+IGREJA   : Sistema desarmado por RONALDO
+14:09 10/04
+IGREJA   : Sistema armado por JOAO
+18:11 10/04
+IGREJA   : Sistema desarmado por JOAO
+18:12 10/04
+IGREJA   : Sistema armado por IVANETE
+18:13 10/04
+IGREJA   : Sistema desarmado por IVANETE
+18:14 10/04
+IGREJA   : Sistema armado por JOAO
+18:15 10/04
+IGREJA   : Sistema desarmado por JOAO
+18:16 10/04
+IGREJA   : Sistema armado por J.CARLOS
+18:17 10/04
+IGREJA   : Sistema desarmado por J.CARLOS
+18:18 10/04
+IGREJA   : Sistema armado por RONALDO
+21:13 10/04
+IGREJA   : Sistema desarmado por SOLANGE
+07:23 11/04
+IGREJA   : Sistema desarmado por NETO     via SMS
+10:43 11/04
+IGREJA   : Sistema armado por NETO     via SMS
+10:52 11/04
+IGREJA   : Sistema desarmado por NETO     via SMS
+10:58 11/04
+IGREJA   : Sistema armado por RONALDO  via SMS
+11:37 11/04
+IGREJA   : Sistema desarmado por RONALDO  via SMS
+12:49 11/04
+IGREJA   : Sistema armado por SOLANGE
+11:40 12/04
+IGREJA   : Sistema desarmado por SOLANGE
+16:43 12/04
+IGREJA   : Sistema armado por NETO
+20:30 12/04
+IGREJA   : Sistema desarmado por RONALDO
+09:16 13/04
+IGREJA   : Sistema armado por RONALDO  via SMS
+12:08 13/04
+IGREJA   : Sistema desarmado por RONALDO  via SMS
+13:05 13/04
+IGREJA   : Sistema armado por RONALDO  via SMS
+17:15 13/04
+IGREJA   : Sistema desarmado por RONALDO  via SMS
+19:04 13/04
+IGREJA   : Sistema armado por WILLIAM  via SMS
+21:19 13/04
+IGREJA   : Sistema desarmado por RONALDO
+IGREJA   : Sistema armado por RONALDO
+12:11 14/04
+IGREJA   : Disparo SALAO
+07:59 15/04
+IGREJA   : Sistema desarmado por RONALDO
+08:00 15/04
+IGREJA   : Sistema armado por RONALDO  via SMS
+12:02 15/04
+IGREJA   : Sistema desarmado por RONALDO  via SMS
+13:40 15/04
+IGREJA   : Sistema armado por RONALDO
+16:33 15/04
+IGREJA   : Sistema desarmado por RONALDO
+12:36 16/04
+IGREJA   : Sistema armado por RONALDO
+14:55 16/04
+IGREJA   : Sistema desarmado por SOLANGE
+18:28 16/04
+IGREJA   : Sistema armado por RONALDO
+21:34 16/04
+IGREJA   : Sistema desarmado por SOLANGE
+07:09 18/04
+IGREJA   : Sistema armado por SOLANGE
+09:38 18/04
+IGREJA   : Sistema desarmado por RONALDO
+10:55 18/04
+IGREJA   : Sistema desarmado por RONALDO
+10:55 18/04
+IGREJA   : Sistema armado por RONALDO
+12:15 18/04
+IGREJA   : Sistema desarmado por RONALDO
+13:34 18/04
+ IGREJA   : Sistema armado por SOLANGE
+21:47 18/04
+IGREJA   : Sistema desarmado por SOLANGE
+08:23 19/04
+IGREJA   : Sistema armado por SOLANGE
+11:42 19/04
+IGREJA   : Sistema desarmado por SOLANGE
+16:42 19/04
+IGREJA   : Sistema armado por SOLANGE
+20:35 19/04
+IGREJA   : Sistema desarmado por RONALDO
+19:00 20/04
+IGREJA   : Sistema armado por nao movimento
+00:42 21/04
+IGREJA   : Sistema desarmado por TARCISIO
+08:23 21/04
+IGREJA   : Sistema armado por TARCISIO
+08:26 21/04
+IGREJA   : Sistema desarmado por WILLIAM  via SMS
+20:02 21/04
+IGREJA   : Sistema armado por WILLIAM  via SMS
+20:22 21/04
+IGREJA   : Sistema desarmado por WILLIAM  via SMS
+07:33 22/04
+IGREJA   : Sistema armado por WILLIAM  via SMS
+07:50 22/04
+IGREJA   : Sistema desarmado por JOAO
+11:18 22/04
+IGREJA   : Sistema armado por JOAO
+11:38 22/04
+IGREJA   : Sistema desarmado por TARCISIO
+16:56 22/04
+IGREJA   : Sistema armado por TARCISIO
+17:00 22/04
+IGREJA   : Sistema desarmado por RONALDO
+12:49 23/04
+IGREJA   : Sistema armado por RONALDO  via SMS
+15:33 23/04
+IGREJA   : Sistema desarmado por RONALDO
+18:27 23/04
+IGREJA   : Sistema armado por RONALDO
+21:37 23/04
+IGREJA   : Sistema desarmado por RONALDO
+18:56 24/04
+IGREJA   : Sistema armado por RONALDO
+20:54 24/04
+IGREJA   : Sistema desarmado por SOLANGE
+07:29 25/04
+IGREJA   : Sistema armado por RONALDO  via SMS
+15:07 25/04
+IGREJA   : Sistema desarmado por SOLANGE
+15:36 25/04
+IGREJA   : Sistema armado por WILLIAM  via SMS
+18:05 25/04
+IGREJA   : Sistema desarmado por SOLANGE
+18:10 25/04
+IGREJA   : Sistema armado por SOLANGE
+22:01 25/04
+IGREJA   : Sistema desarmado por SOLANGE
+07:14 26/04
+IGREJA   : Sistema armado por SOLANGE
+11:57 26/04
+IGREJA   : Sistema desarmado por SOLANGE
+15:13 26/04
+IGREJA   : Sistema armado por NETO     via SMS
+21:07 26/04
+IGREJA   : Sistema desarmado por RONALDO
+08:59 27/04
+IGREJA   : Sistema armado por RONALDO  via SMS
+17:57 27/04
+IGREJA   : Sistema desarmado por RONALDO
+19:15 27/04
+IGREJA   : Sistema armado por WILLIAM  via SMS
+21:45 27/04
+IGREJA   : Sistema desarmado por RONALDO
+07:58 28/04
+IGREJA   : Sistema armado por RONALDO
+20:18 28/04
+IGREJA   : Sistema desarmado por NETO     via SMS
+12:29 29/04
+IGREJA   : Sistema armado por NETO     via SMS
+12:36 29/04
+IGREJA   : Sistema desarmado por TARCISIO
+14:24 29/04
+IGREJA   : Sistema armado por TARCISIO
+14:30 29/04
+IGREJA   : Sistema desarmado por RONALDO  via SMS
+07:32 30/04
+IGREJA   : Sistema armado por RONALDO  via SMS
+07:58 30/04
+IGREJA   : Sistema desarmado por RONALDO
+12:47 30/04
+IGREJA   : Sistema armado por RONALDO  via SMS
+16:34 30/04
+IGREJA   : Sistema desarmado por RONALDO
+18:31 30/04
+IGREJA   : Sistema armado por RONALDO
+21:48 30/04
