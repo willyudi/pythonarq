@@ -1,7 +1,8 @@
 
 import pymysql
 
-db = pymysql.connect('Wiliano.mysql.pythonanywhere-services.com','Williano', 'liberdadeccb','db_liberdadeccb')
+db = pymysql.connect(host='Wiliano.mysql.pythonanywhere-services.com', user='wiliano', passwd='willy01', db='Wiliano$db_liberdadeccb', charset='utf8', use_unicode=True)
+
 cursor = db.cursor()
 cursor.execute("SELECT VERSION()")
 data = cursor.fetchone()
