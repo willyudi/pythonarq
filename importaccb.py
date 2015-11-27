@@ -1,21 +1,15 @@
 #-*-coding:utf8;-*-
 import os
 import sys
-import time
-from datetime import datetime
 import json
 from urllib.request import urlopen
 import urllib.parse
 import urllib.request
 
-os.system('clear')
-
 #Get JSON
-alarme_url = 'http://viniciusdepaula.com/api/ccb/alarme/acao/'
+#alarme_url = 'http://viniciusdepaula.com/api/ccb/alarme/acao/'
 #html = urlopen(alarme_url)
 #print (html.read())
-now = datetime.now()
-tempo = str(now.hour) + ':' + str(now.minute) + ':' + str(now.second)
 
 # 15-11-2015 - Williano Serpa
 # Abre arquivo para fazer a leitura
@@ -23,48 +17,68 @@ tempo = str(now.hour) + ':' + str(now.minute) + ':' + str(now.second)
 # Identificador (11 caracteres) - Fixo 'IGREJA   : '
 # Mensagem (50 Caracteres) - Ex.: 'Sistema desarmado por RONALDO  via SMS'
 # Horario (10 Caracteres) - Formato HH:MM DD/MM - Ex.: '19:53 27/03'
-
+# Inicializa Variaveis
+alarme_url = 'http://viniciusdepaula.com/api/ccb/alarme/acao/'
 Identificador = 'IGREJA   : '
 Mensagem = ''
 DataMensagem = ''
 Horario = ''
 ano = '2015'
+Estado = 0
 NumeroLinha = 1
+contalinha = 0
 
+#Limpa o terminal
+os.system('clear')
+
+#Verifica se o arquivo existe no diretorio
 if os.path.exists('ccbalarme032015.txt'):
 
+    #Abre arquivo para verificar tamanho
+    dados = open('ccbalarme032015.txt', 'r')
+    contalinha = len(dados.readlines())
+    dados.close()
+
+    #Abre arquivo para leitura
     dados = open('ccbalarme032015.txt', 'r')
     linha = dados.readline()
     print ('Arquivo ccbalarme032015.txt em Processamento!')
 
+    #Comeca leitura do arquivo
     while linha:
 
+        #Primeira Linha Mensagem
         if str(linha[0:11]) == Identificador:
             Mensagem = str(linha[11:-1])
         else:
+            #Segunda linha - Data e Hora
             hora = str(linha[0:5])
-            data = str(linha[6:-1])
+            data = str(linha[6:])
             dia = data[0:2]
             mes = data[3:5]
             DataMensagem = ano + '-' + mes + '-' + dia
             Horario = hora + ':00'
 
+            #Consolida informacoes - Responsavel e Acao
             if Mensagem.find('por') > 0:
                 Posicao = Mensagem.find('por') + 4
                 Responsavel = Mensagem[Posicao:]
                 Acao = Mensagem[0:Mensagem.find('por')]
-                Estado = 2
-                if Mensagem.find('Armado') > 0:
-                    Estado = 1
-                elif Mensagem.find('Desarmado') > 0:
-                    Estado = 0
             else:
                 Posicao = 0
                 Responsavel = 'ALARME'
                 Acao = Mensagem
 
-            #Post JSON
-            valores = {'data' : DataMensagem,
+            #Verifica se Alarme ligado (1) ou Desligado (0) - Outros (2)
+            if Acao.find('desarmado') > 0:
+                Estado = 0
+            elif Acao.find('armado') > 0:
+                Estado = 1
+            else:
+                Estado = 2
+
+            #Post JSON - Acessa servico de gravacao banco
+            valores = {'dat    a' : DataMensagem,
                         'hora' : Horario,
                         'responsavel' : Responsavel,
                         'acao' : Acao,
@@ -73,7 +87,11 @@ if os.path.exists('ccbalarme032015.txt'):
             req = urllib.request.Request(alarme_url, data=params,
             headers={'content-type' : 'application/json'})
             response = urllib.request.urlopen(req)
-        print('Linha do Arquivo: % 2d' % NumeroLinha, end = '\r')
+
+        #Indica que linha esta dentro do arquivo
+        #print(contalinha)
+        #print('% 2d %%' % ((NumeroLinha/contalinha)*100))
+        print('Carregando Arquivo: % 2d %%' % ((NumeroLinha/contalinha)*100), end = '\r')
         sys.stdout.flush()
         NumeroLinha = NumeroLinha + 1
         linha = dados.readline()
@@ -81,4 +99,5 @@ if os.path.exists('ccbalarme032015.txt'):
 else:
     print ('Arquivo não encontrado!')
 
+#Finaliza aplicacao
 print ('Arquivo Processado com Sucesso!')
