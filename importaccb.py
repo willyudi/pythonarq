@@ -78,7 +78,7 @@ if os.path.exists('ccbalarme032015.txt'):
                 Estado = 2
 
             #Post JSON - Acessa servico de gravacao banco
-            valores = {'dat    a' : DataMensagem,
+            valores = {'data' : DataMensagem,
                         'hora' : Horario,
                         'responsavel' : Responsavel,
                         'acao' : Acao,
@@ -89,8 +89,6 @@ if os.path.exists('ccbalarme032015.txt'):
             response = urllib.request.urlopen(req)
 
         #Indica que linha esta dentro do arquivo
-        #print(contalinha)
-        #print('% 2d %%' % ((NumeroLinha/contalinha)*100))
         print('Carregando Arquivo: % 2d %%' % ((NumeroLinha/contalinha)*100), end = '\r')
         sys.stdout.flush()
         NumeroLinha = NumeroLinha + 1
