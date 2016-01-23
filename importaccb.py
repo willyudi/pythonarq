@@ -32,17 +32,17 @@ contalinha = 0
 os.system('clear')
 
 #Verifica se o arquivo existe no diretorio
-if os.path.exists('ccbalarme032015.txt'):
+if os.path.exists('ccbalarme072015.txt'):
 
     #Abre arquivo para verificar tamanho
-    dados = open('ccbalarme032015.txt', 'r')
+    dados = open('ccbalarme072015.txt', 'r')
     contalinha = len(dados.readlines())
     dados.close()
 
     #Abre arquivo para leitura
-    dados = open('ccbalarme032015.txt', 'r')
+    dados = open('ccbalarme072015.txt', 'r')
     linha = dados.readline()
-    print ('Arquivo ccbalarme032015.txt em Processamento!')
+    print ('Arquivo ccbalarme072015.txt em Processamento!')
 
     #Comeca leitura do arquivo
     while linha:

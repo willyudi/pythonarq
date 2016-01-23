@@ -206,8 +206,7 @@ IGREJA   : Disparo SALAO
 19:17 29/06
 IGREJA   : Sistema desarmado por WILLIAM
 19:18 29/06
-IGREJA   : Nao permitido
-Sistema  Desarmado (houve disparo)
+IGREJA   : Nao permitido Sistema  desarmado (houve disparo)
 19:18 29/06
 IGREJA   : Sistema armado por WILLIAM  via SMS
 21:18 29/06

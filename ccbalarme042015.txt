@@ -12,7 +12,6 @@ IGREJA   : A energia eletrica foi restaurada
 15:20 01/04
 IGREJA   : Sistema armado por RONALDO  via SMS
 17:25 01/04
-IGREJA   : Hora do Alarme incompativel com hora do SMS
 IGREJA   : Disparo SALAO
 18:22 01/04
 IGREJA   : Sistema desarmado por RONALDO  via SMS
@@ -59,7 +58,6 @@ IGREJA   : Sistema armado por RONALDO
 15:05 06/04
 IGREJA   : Sistema desarmado por RONALDO  via SMS
 19:29 06/04
-IGREJA   : Sistema armado por WILLIAM  via SMS
 IGREJA   : Sistema desarmado por JOAO
 14:37 07/04
 IGREJA   : Sistema desarmado por RONALDO  via SMS
@@ -79,6 +77,7 @@ IGREJA   : Sistema armado por TARCISIO
 IGREJA   : Disparo SERRALHER
 08:34 09/04
 IGREJA   : Sistema desarmado por RONALDO  via SMS
+09:11 09/04
 IGREJA   : Sistema armado por RONALDO  via SMS
 09:11 09/04
 IGREJA   : Sistema desarmado por RONALDO
@@ -142,6 +141,7 @@ IGREJA   : Sistema desarmado por RONALDO  via SMS
 IGREJA   : Sistema armado por WILLIAM  via SMS
 21:19 13/04
 IGREJA   : Sistema desarmado por RONALDO
+12:11 14/04
 IGREJA   : Sistema armado por RONALDO
 12:11 14/04
 IGREJA   : Disparo SALAO
