@@ -1,0 +1,8 @@
+virtualenv venv
+source venv/bin/activate
+locust -V
+
+virtualenv 
+python -m venv myvenv
+. myvenv/bin/activate
+python manage.py runserver
